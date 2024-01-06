@@ -1,0 +1,43 @@
+# .gitignore file
+
+# Compilation outputs
+*.class
+*.jar
+*.war
+
+# Log files
+*.log
+
+# NetBeans specific files
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Package manager files
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+
+# Image and Video Files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+
+# Cache files
+*.cache
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
