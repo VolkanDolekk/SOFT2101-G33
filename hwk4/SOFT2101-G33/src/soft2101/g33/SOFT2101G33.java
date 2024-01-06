@@ -10,12 +10,7 @@ import java.util.Scanner;
  * @author vlknd
  */
 public class SOFT2101G33 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter the num1: ");
@@ -25,19 +20,18 @@ public class SOFT2101G33 {
         
         if(num1 < num2){
             for(int i = num1 + 1; i < num2; i++){
-                if(i%2 != 0){
-                System.out.print(i + " ");
+                if (i % 2 == 0){
+                    System.out.print(i + " ");
                 }
             }
         } else if(num2 < num1){
             for(int i = num2 + 1; i < num1; i++){
-                if(i%2 != 0){
-                System.out.print(i + " ");
+                if (i % 2 == 0){
+                    System.out.print(i + " ");
                 }
             }
         } else{
             System.out.println("The numbers are equal!");
         }
     }
-    
 }
