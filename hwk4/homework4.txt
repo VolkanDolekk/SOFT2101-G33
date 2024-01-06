@@ -1,7 +1,7 @@
 a)  git config --global user.name "VolkanDolekk"
-     git config --global user.email "21SOFT1019@isik.edu.tr"
-     git config --global core.editor "VSCode"
-     git config --global –list
+    git config --global user.email "21SOFT1019@isik.edu.tr"
+    git config --global core.editor "VSCode"
+    git config --global –list
 
 b) Directory of C:\Users\vlknd\SOFT2101-G33
 
@@ -35,8 +35,6 @@ f) git commit -m "satisfying requirement one" # Commits and adds message
    SOFT2101G33.java and homework4.txt are listed in the hwk4 directory in the feature-1 branch. Only homework4.txt is listed in the hwk4 directory on the master branch.
 
 j) git commit -m "satisfying requirement change two" # Commits and adds message
-
-k) git commit -m "satisfying requirement change three" # Commits and adds message
 
 m) main has a java file containing the method that prints only even numbers.
    feature-1 has a java file containing the printing method.
