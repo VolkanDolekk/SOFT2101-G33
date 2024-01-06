@@ -1,1 +1,46 @@
+a)  git config --global user.name "VolkanDolekk"
+     git config --global user.email "21SOFT1019@isik.edu.tr"
+     git config --global core.editor "VSCode"
+     git config --global –list
+
+b) Directory of C:\Users\vlknd\SOFT2101-G33
+
+    06.01.2024  11:46    <DIR>          .
+    06.01.2024  11:46    <DIR>          ..
+    06.01.2024  11:46    <DIR>          hwk4
+                   0 File(s)              0 bytes
+                   3 Dir(s)  572.406.538.240 bytes free
+
+c) Putting “[The Department of Software Engineering of Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim- 
+   muhendisligi/)” inside README.md .
+
+d) The rules in .gitignore file:
+   Compiled Class Files: .class
+   Log Files:.log
+   BlueJ Files: .ctxt
+   Mobile Tools for Java (J2ME): .mtj.tmp/
+   Package Files:.jar, .war,.nar, .ear,.zip, .tar.gz,.rar
+   XML Configuration Files: .xml
+   Java Manifest Files:.mf
+   Java Properties Files: .properties
+   Virtual Machine Crash Logs: hs_err_pid, replay_pid*
+   NetBeans Specific Files: /nbproject/private/, /nbproject/Makefile-.mk, **/nbproject/Package-.bash, build/, nbbuild/, dist/, nbdist/, .nb-gradle/
+   Package Manager Files: node_modules/, package-lock.json, yarn.lock
+   IDE Specific Files: .idea/, .vscode/, .iml
+   Image and Video Files:.png, .jpg,.jpeg, .gif,.mp4, .avi
+   Cache Files:.cache, *.pyc
+   System Files: .DS_Store, Thumbs.db
+
+f) git commit -m "satisfying requirement one" # Commits and adds message
+   SOFT2101G33.java and homework4.txt are listed in the hwk4 directory in the feature-1 branch. Only homework4.txt is listed in the hwk4 directory on the master branch.
+
+j) git commit -m "satisfying requirement change two" # Commits and adds message
+
+k) git commit -m "satisfying requirement change three" # Commits and adds message
+
+m) main has a java file containing the method that prints only even numbers.
+   feature-1 has a java file containing the printing method.
+   feature-2 has a java file containing the method that prints only odd ones.
+   feature-3 has the same java file as main, which contains the method that prints only even numbers.
+   everything else is the same.
 
